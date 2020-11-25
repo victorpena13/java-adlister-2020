@@ -50,6 +50,4 @@ public class MySQLAdsDAO implements Ads {
         long queue = statement.executeUpdate(adding);
         return queue;
     }
-
-
 }
