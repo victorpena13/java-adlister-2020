@@ -16,7 +16,7 @@ public class ProfileServlet {
                 response.sendRedirect("/login");
                 return;
             }
-            request.getRequestDispatcher("/WEB-INF/profile.jsp").forward(request, response);
+            request.getRequestDispatcher("/WEB-INF/user-profile/profile.jsp").forward(request, response);
         }
     }
 }
