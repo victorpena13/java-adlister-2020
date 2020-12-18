@@ -6,26 +6,13 @@
 <body>
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
-<h1 class="alignCenter">Adlister</h1>
+<h1 class="text-center">Adlister</h1>
 
-<h6>Test the functionality of my mockup of craigslist</h6>
-<h6>Step 1: Register an account </h6>
-<h6>Step 2: Create a make believe ad</h6>
-<h6>step 3: Browse the site</h6>
+<h6 class="text-center">Test the functionality of my mockup of craigslist</h6>
+<h6 class="text-center">Step 1: Register an account </h6>
+<h6 class="text-center">Step 2: Create a make believe ad</h6>
+<h6 class="text-center">step 3: Browse the site</h6>
 
-<div class="container">
-    <div class="row">
-        <div class="col-sm">
-            One of three columns
-        </div>
-        <div class="col-sm">
-            One of three columns
-        </div>
-        <div class="col-sm">
-            One of three columns
-        </div>
-    </div>
-</div>
 <jsp:include page="/WEB-INF/partials/scripts.jsp" />
 </body>
 </html>

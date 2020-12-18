@@ -1,7 +1,7 @@
 package com.java.mysql;
 
 public class Config {
-    private static String url = "jdbc:mysql://localhost/adlister_db?serverTimezone=UTC&useSSL=false";
+    private static String url = "jdbc:mysql://localhost/listcraig_db?serverTimezone=UTC&useSSL=false";
     private static String user = "root";
     private static String password= "codeup";
 
