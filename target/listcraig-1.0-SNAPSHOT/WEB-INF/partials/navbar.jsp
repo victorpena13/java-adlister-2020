@@ -5,9 +5,9 @@
             <a class="navbar-brand" href="/listcraig_war_exploded/">Adlister</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="/login">Login</a></li>
-            <li><a href="/logout">Logout</a></li>
-            <li><a href="/profile">My Account</a></li>
+            <li><a href="/listcraig_war_exploded/login">Login</a></li>
+            <li><a href="/listcraig_war_exploded/logout">Logout</a></li>
+            <li><a href="/listcraig_war_exploded/profile">My Account</a></li>
         </ul>
     </div><!-- /.navbar-collapse -->
 </nav>

@@ -6,7 +6,7 @@
 <body>
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 <h1 class="text-center">Login</h1>
-<form action="/login" method="post">
+<form action="/listcraig_war_exploded/login" method="post">
     <div class="form-group">
         <label for="email">email</label>
         <input type="text" id="email" name="email" class="form-control">
