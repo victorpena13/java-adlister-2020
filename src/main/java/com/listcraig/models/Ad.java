@@ -7,7 +7,8 @@ public class Ad {
     private long userID;
     private String title;
     private String description;
-    private Date date;
+    //date the ad was created.
+    private Date creationDate;
 
     public Ad(long userID, String title, String description) {
         this.userID = userID;
@@ -15,12 +16,12 @@ public class Ad {
         this.description = description;
     }
 
-    public Ad(long id, long userID, String title, String description, Date date) {
+    public Ad(long id, long userID, String title, String description, Date creationDate) {
         this.id = id;
         this.userID = userID;
         this.title = title;
         this.description = description;
-        this.date = date;
+        this.creationDate = creationDate;
     }
 
     public long getId() {
@@ -56,10 +57,10 @@ public class Ad {
     }
 
     public Date getDate() {
-        return date;
+        return creationDate;
     }
 
     public void setDate(Date date) {
-        this.date = date;
+        this.creationDate = date;
     }
 }
