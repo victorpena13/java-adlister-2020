@@ -13,6 +13,17 @@
 <h6 class="text-center">Step 2: Create a make believe ad</h6>
 <h6 class="text-center">step 3: Browse the site</h6>
 
+
+
+<c:forEach var="ad" items="${ads}">
+    <div class="col-md-6">
+        <c:out value="${ads.title}"/>
+
+        <c:out value="${ad.description}"/>
+        <h2>${ad.title}</h2>
+            <%--            <p>${ad.description}</p>--%>
+    </div>
+</c:forEach>
 <jsp:include page="/WEB-INF/partials/scripts.jsp" />
 </body>
 </html>

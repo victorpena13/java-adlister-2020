@@ -1,4 +1,4 @@
-package com.java.models;
+package com.listcraig.models;
 
 public class Categories {
     private long id;

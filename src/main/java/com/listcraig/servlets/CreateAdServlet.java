@@ -1,8 +1,8 @@
-package com.java.servlets;
+package com.listcraig.servlets;
 
 
-import com.java.DAO.DaoFactory;
-import com.java.models.Ad;
+import com.listcraig.DAO.DaoFactory;
+import com.listcraig.models.Ad;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

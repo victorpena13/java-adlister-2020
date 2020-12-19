@@ -1,4 +1,4 @@
-package com.java.mysql;
+package com.listcraig.mysql;
 
 import com.mysql.cj.jdbc.Driver;
 import java.sql.*;

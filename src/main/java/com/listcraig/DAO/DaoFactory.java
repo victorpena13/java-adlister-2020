@@ -1,7 +1,7 @@
-package com.java.DAO;
+package com.listcraig.DAO;
 
-import com.java.interfaces.Ads;
-import com.java.mysql.MySQLAdsDAO;
+import com.listcraig.interfaces.Ads;
+import com.listcraig.mysql.MySQLAdsDAO;
 
 import java.sql.SQLException;
 

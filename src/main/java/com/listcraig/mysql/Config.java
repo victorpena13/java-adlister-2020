@@ -1,4 +1,4 @@
-package com.java.mysql;
+package com.listcraig.mysql;
 
 public class Config {
     private static String url = "jdbc:mysql://localhost/listcraig_db?serverTimezone=UTC&useSSL=false";

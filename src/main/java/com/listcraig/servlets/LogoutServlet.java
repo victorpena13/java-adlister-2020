@@ -1,4 +1,4 @@
-package com.java.servlets;
+package com.listcraig.servlets;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

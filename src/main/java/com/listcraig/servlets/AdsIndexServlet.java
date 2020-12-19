@@ -1,4 +1,4 @@
-package com.java.servlets;
+package com.listcraig.servlets;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,13 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "ProfileServlet", urlPatterns = "/profile")
-public class ProfileServlet extends HttpServlet {
+@WebServlet(name = "AdsIndexServlet", urlPatterns = "/")
+public class AdsIndexServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if (request.getSession().getAttribute("user") == null) {
-            response.sendRedirect("/login");
-            return;
-        }
-        request.getRequestDispatcher("/WEB-INF/user/profile.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/site/index.jsp").forward(request, response);
     }
 }

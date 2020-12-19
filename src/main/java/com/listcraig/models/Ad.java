@@ -1,4 +1,4 @@
-package com.java.models;
+package com.listcraig.models;
 
 import java.util.Date;
 

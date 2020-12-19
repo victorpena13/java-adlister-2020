@@ -1,6 +1,6 @@
-package com.java.interfaces;
+package com.listcraig.interfaces;
 
-import com.java.models.Ad;
+import com.listcraig.models.Ad;
 
 import java.sql.SQLException;
 import java.util.List;

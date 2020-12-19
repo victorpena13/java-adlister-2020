@@ -1,7 +1,7 @@
-package com.java.mysql;
+package com.listcraig.mysql;
 
-import com.java.interfaces.Ads;
-import com.java.models.Ad;
+import com.listcraig.interfaces.Ads;
+import com.listcraig.models.Ad;
 import com.mysql.cj.jdbc.Driver;
 
 import java.sql.*;
@@ -44,7 +44,7 @@ public class MySQLAdsDAO implements Ads {
 
     @Override
     public long insert(Ad ad) throws SQLException {
-        String adding = String.format("INSERT INTO ads (user_id, title, description) VALUES (%d, '%s', '%s')",
+        String adding = String.format("INSERT INTO ads (user_id, title, description, categories_id) VALUES (%d, '%s', '%s')",
                 ad.getUserID(), ad.getTitle(), ad.getDescription());
         PreparedStatement statement = connection.prepareStatement(adding);
         long queue = statement.executeUpdate(adding);
